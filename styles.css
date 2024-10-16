@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #adadad;
+    color: rgb(67, 66, 66);
+    text-align: left;
+    padding: 1rem;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem; /* Adjust this value as needed */
+    margin: 0;
+}
+
+ h2, h3 {
+    color:rgb(67, 66, 66);
+}
+
+.feature-img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    display: block;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.feature-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+#logo {
+    height: 1em; /* This makes the logo height match the text height */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 0.2em; /* Small space between logo and colon */
+    vertical-align: middle;
+}
